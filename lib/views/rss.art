@@ -24,6 +24,9 @@
             <link>{{ link }}</link>
         </image>
         {{ /if }}
+        {{ if image }}
+        <itunes::image href="{{ $image }}"/>
+        {{ /if }}
         <lastBuildDate>{{ lastBuildDate }}</lastBuildDate>
         <ttl>{{ ttl }}</ttl>
         {{ each item }}
