@@ -23,9 +23,7 @@
             <title><![CDATA[{{@ title || 'RSSHub' }}]]></title>
             <link>{{ link }}</link>
         </image>
-        {{ /if }}
-        {{ if image }}
-        <itunes:image href="{{ $image }}"/>
+        <itunes:image href="{{ image }}"/>
         {{ /if }}
         <lastBuildDate>{{ lastBuildDate }}</lastBuildDate>
         <ttl>{{ ttl }}</ttl>
