@@ -10,6 +10,7 @@
         <title><![CDATA[{{@ title || 'RSSHub' }}]]></title>
         <link>{{ link || 'https://docs.rsshub.app' }}</link>
         <atom:link href="{{ atomlink }}" rel="self" type="application/rss+xml" />
+        {{ if next }}<atom:link href="{{ next }}" rel="next" type="application/rss+xml" />{{ /if }}
         <description><![CDATA[{{@ description || title }} - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
         <generator>RSSHub</generator>
         <webMaster>i@diygod.me (DIYgod)</webMaster>
@@ -22,7 +23,7 @@
             <url>{{ image }}</url>
             <title><![CDATA[{{@ title || 'RSSHub' }}]]></title>
             <link>{{ link }}</link>
-        </image>
+        </image>        
         <itunes:image href="{{ image }}"/>
         {{ /if }}
         <lastBuildDate>{{ lastBuildDate }}</lastBuildDate>
