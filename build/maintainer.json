@@ -242,6 +242,9 @@
     "/cahkms/:category?": [
         "nczitzk"
     ],
+    "/cankaoxiaoxi/news/:category": [
+        "yuxinliu-alex"
+    ],
     "/cbirc/:category?": [
         "JkCheung"
     ],
@@ -251,6 +254,22 @@
     "/ccreports/article": [
         "EsuRt",
         "Fatpandac"
+    ],
+    "/cctv/lm/:id?": [
+        "nczitzk"
+    ],
+    "/cctv/photo/jx": [
+        "nczitzk"
+    ],
+    "/cctv/special/:id?": [
+        "nczitzk"
+    ],
+    "/cctv/xwlb": [
+        "zengxs"
+    ],
+    "/cctv/:category": [
+        "idealclover",
+        "xyqfer"
     ],
     "/cde/:channel/:category": [
         "Fatpandac"
@@ -288,6 +307,9 @@
     ],
     "/chinacef/portal/hot": [
         "kdanfly"
+    ],
+    "/chinanews/": [
+        "yuxinliu-alex"
     ],
     "/ciidbnu/:id?": [
         "nczitzk"
@@ -367,6 +389,24 @@
     ],
     "/dockerhub/tag/:owner/:image": [
         "outloudvi"
+    ],
+    "/dongqiudi/daily": [
+        "HenryQW"
+    ],
+    "/dongqiudi/player_news/:id": [
+        "HenryQW"
+    ],
+    "/dongqiudi/result/:team": [
+        "HenryQW"
+    ],
+    "/dongqiudi/special/:id": [
+        "dxmpalb"
+    ],
+    "/dongqiudi/team_news/:team": [
+        "HenryQW"
+    ],
+    "/dongqiudi/top_news/:id?": [
+        "HendricksZheng"
     ],
     "/douban/book/latest": [
         "fengkx"
@@ -762,6 +802,9 @@
     "/gov/mee/ywdt?": [
         "liuxsdev"
     ],
+    "/gov/nrta/news/:category?": [
+        "yuxinliu-alex"
+    ],
     "/gov/pbc/goutongjiaoliu": [
         "nczitzk"
     ],
@@ -920,6 +963,9 @@
     ],
     "/huangz/": [
         "stormbuf"
+    ],
+    "/huanqiu/news/:category?": [
+        "yuxinliu-alex"
     ],
     "/hupu/all/:id?": [
         "nczitzk"
@@ -1616,6 +1662,9 @@
     "/sdu/wh/news/:column?": [
         "kxxt"
     ],
+    "/sdu/wh/jwc/:column?": [
+        "kxxt"
+    ],
     "/secnews/index": [
         "kaiili"
     ],
@@ -1758,6 +1807,9 @@
     "/test/:id": [
         "DIYgod",
         "NeverBehave"
+    ],
+    "/thecover/channel/:id?": [
+        "yuxinliu-alex"
     ],
     "/thepaper/839studio/:id": [
         "umm233"
@@ -1915,6 +1967,9 @@
     ],
     "/wechat/feeddd/:id": [
         "TonyRL",
+        "Rongronggg9"
+    ],
+    "/wechat/data258/:id?": [
         "Rongronggg9"
     ],
     "/wenku8/:category?": [
@@ -2239,11 +2294,6 @@
     "/tingshuitz/wuhan": [],
     "/mihoyo/bh3/:type": [],
     "/mihoyo/bh2/:type": [],
-    "/cctv/xwlb": [],
-    "/cctv/lm/:id?": [],
-    "/cctv/:category": [],
-    "/cctv/photo/jx": [],
-    "/cctv-special/:id?": [],
     "/caixin/blog/:column": [],
     "/caixin/article": [],
     "/caixin/database": [],
@@ -2279,12 +2329,6 @@
     "/namoc/media": [],
     "/namoc/exhibition": [],
     "/namoc/specials": [],
-    "/dongqiudi/daily": [],
-    "/dongqiudi/result/:team": [],
-    "/dongqiudi/team_news/:team": [],
-    "/dongqiudi/player_news/:id": [],
-    "/dongqiudi/special/:id": [],
-    "/dongqiudi/top_news/:id?": [],
     "/wikipedia/mainland": [],
     "/un/scveto": [],
     "/egsea/flash": [],
