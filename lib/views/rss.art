@@ -11,6 +11,7 @@
         <link>{{ link || 'https://docs.rsshub.app' }}</link>
         <atom:link href="{{ atomlink }}" rel="self" type="application/rss+xml" />
         {{ if next }}<atom:link href="{{ next }}" rel="next" type="application/rss+xml" />{{ /if }}
+        {{ if next }}<link href="{{ next }}" rel="next"/>{{ /if }}
         <description><![CDATA[{{@ description || title }} - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
         <generator>RSSHub</generator>
         <webMaster>i@diygod.me (DIYgod)</webMaster>
