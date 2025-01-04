@@ -14180,6 +14180,44 @@
     "url": "cast.org.cn",
     "lang": "zh-CN"
   },
+  "catti": {
+    "routes": {
+      "/news/:category": {
+        "path": "/news/:category",
+        "name": "CATTI 考试消息",
+        "maintainers": [
+          "PrinOrange"
+        ],
+        "description": "\n| Category  | 标题       | 描述                |\n|-----------|------------|--------------------|\n| ggl       | 通知公告   | CATTI 考试通知和公告 |\n| ywdt      | 要闻动态   | CATTI 考试要闻动态   |\n| zxzc      | 最新政策   | CATTI 考试最新政策   |\n",
+        "categories": [
+          "study"
+        ],
+        "parameters": {
+          "category": "消息分类名，可在下面的描述中找到。"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false,
+          "supportRadar": true
+        },
+        "example": "/catti/news/zxzc",
+        "radar": [
+          {
+            "source": [
+              "www.catticenter.com/:category"
+            ]
+          }
+        ],
+        "location": "news.ts"
+      }
+    },
+    "name": "全国翻译专业资格水平考试 (CATTI)",
+    "url": "www.catticenter.com"
+  },
   "cau": {
     "routes": {
       "/ele": {
@@ -64443,6 +64481,39 @@
     "description": "\n::: tip\np-articles provides some official RSS feeds:\n\n-   section: `https://p-articles.com/section/:section`\n-   contributors: `https://p-articles.com/contributors/:author`\n:::",
     "lang": "en"
   },
+  "pacilution": {
+    "routes": {
+      "/latest": {
+        "path": "/latest",
+        "name": "最新文章",
+        "maintainers": [
+          "PrinOrange"
+        ],
+        "categories": [
+          "journal"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "example": "/pacilution/latest",
+        "radar": [
+          {
+            "source": [
+              "www.pacilution.com"
+            ]
+          }
+        ],
+        "location": "latest.ts"
+      }
+    },
+    "name": "普世社会科学研究所",
+    "url": "www.pacilution.com"
+  },
   "panewslab": {
     "routes": {
       "/author/:id": {
@@ -70661,6 +70732,43 @@
     "name": "软餐",
     "url": "ruancan.com",
     "lang": "zh-CN"
+  },
+  "ruankao": {
+    "routes": {
+      "/news": {
+        "path": "/news",
+        "name": "软考最新动态",
+        "maintainers": [
+          "PrinOrange"
+        ],
+        "categories": [
+          "study"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false,
+          "supportRadar": true
+        },
+        "radar": [
+          {
+            "title": "软考新闻动态",
+            "source": [
+              "www.ruankao.org.cn/index/work",
+              "www.ruankao.org.cn"
+            ],
+            "target": "/news"
+          }
+        ],
+        "example": "/ruankao/news",
+        "location": "news.ts"
+      }
+    },
+    "name": "中国计算机职业技术资格考试",
+    "url": "www.ruankao.org.cn"
   },
   "ruc": {
     "routes": {
